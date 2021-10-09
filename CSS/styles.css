@@ -1,0 +1,162 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('../images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.order-summary-component {
+    background-color: white;
+    margin:7% 35%;
+    border-radius: 2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.order-summary {
+    padding-top:3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-weight: 900;
+    font-size: 2.4rem;
+    color: hsl(223, 47%, 23%);
+    padding-bottom: 1.5rem;
+}
+
+.desc {
+    color: hsl(224, 23%, 55%);
+    line-height: 1.7;
+    font-size: 1.2rem;
+    margin: 0 8rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    padding:1rem 2rem;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-img {
+    flex: 0 0 20%;
+    align-self: flex-start;
+    margin-right: 2rem;
+    padding-left: 2rem;
+}
+
+.plan-desc {
+    flex: 0 0 30%;
+    margin-right: 6rem;
+    font-size:1.2rem;
+    line-height:1.7;
+}
+
+.plan-desc-heading {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    font-size: 1.3rem;
+}
+
+.plan-link {
+    font-size: 1.3rem;
+}
+
+.plan-link:hover {
+    text-decoration: none;
+}
+
+.button {
+    align-self: stretch;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size:1.4rem;
+    
+}
+
+.proceed-button {
+    margin: 2.5rem 5rem;
+    padding: 1.5rem 2rem;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.proceed-button:hover {
+    opacity: 0.8;
+}
+
+.cancel-button {
+    color: hsl(224, 23%, 55%); 
+    padding-bottom: 2.5rem;   
+    font-weight: 700;
+}
+
+.cancel-button:hover {
+    color: hsl(223, 47%, 23%);   
+}
+
+@media screen and (max-width:1200px) {
+    .order-summary-component {
+        margin:7% 32%;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .order-summary-component {
+        margin:7% 28%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .order-summary-component {
+        margin:7% 25%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .order-summary-component {
+        margin:7% 12%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    body {
+        background-image: url('../images/pattern-background-mobile.svg');
+    }
+
+    .order-summary-component {
+        margin:7%;
+    }
+
+    .desc {
+        margin: 0 5rem;
+    }
+
+    .plan {
+        padding:1rem 1.5rem;
+    }
+}
