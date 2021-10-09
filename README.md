@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot-Desktop Frontend Mentor Order summary card.png)
-![](./Screenshot-Mobile Frontend Mentor Order summary card.png)
+![](./https://github.com/Memeena/Order-Summary-Component/blob/becd67a73767b9447304dc856a0904783338cdfb/Screenshot-Desktop%20Frontend%20Mentor%20Order%20summary%20card.png)
+![](./https://github.com/Memeena/Order-Summary-Component/blob/becd67a73767b9447304dc856a0904783338cdfb/Screenshot-Mobile%20Frontend%20Mentor%20Order%20summary%20card.png)
 
 ### Links
 
